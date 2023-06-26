@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristian Recabarren - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Inconsolata&display=swap" rel="stylesheet">
+    <link rel="icon" href="/assets/Logo.jpg" type="image/x-icon">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- NAVBAR -->  
+    <nav class="navbar navbar-expand-md" id="navbar_top">
+      <div class="container container-sm container-md container-fluid">
+        <a class="navbar-brand" href="#intro">
+          <img src="assets/Logo.jpg" alt="Logo" width="50" height="50" class="d-inline-block align-text-top img-fluid">
+        </a>
+        <a href="#intro" id="top">
+          <span id="title_top">
+            Cristian Recabarren
+          </span>
+        </a>
+
+        <!-- Toggler_btn -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="#main-nav" aria-expanded="false" aria-label="Toggle navigation" id="toggler_btn">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- navbar links of toggler -->
+        <div class="collapse navbar-collapse justify-content-end align-content-center" id="main-nav">
+          <ul class="navbar-nav">
+            <li class="nav-item mx-2 my-1" id="portfolio_btn">
+              <a href="#portfolio" class="btn p-2 nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item mx-2 my-1" id="aboutMe_btn">
+              <a href="#aboutMe" class="btn p-2 nav-link">Acerca de mí</a>
+            </li>
+            <li class="nav-item mx-2 my-1" id="contact_btn">
+              <a href="#contact" class="btn p-2 nav-link">Contacto</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+
+
+    <!-- INTRO -->
+    <section id="intro">  
+      <div class="container container-sm container-lg my-3 intro_container justify-content-center my-5">
+        <div class="col-sm-12 text-center">
+          <div class="row-sm-3 row-lg-4" id="dev_img"><img src="assets/cristian.jpg" alt="cristian" class="img-fluid"></div>
+          <h2 class="info row-sm-3 row-lg-4">Cristian Recabarren</h2>
+          <div class="row-sm-3 row-lg-4" id="info_role"><p >Web Developer Trainee</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+
+  <!--PORTFOLIO_DEMO-->
+  <section id="portfolio">
+    <!-- <img src="../4.Portfolio/Images/background.png" alt="background" class="backimg img-fluid"> -->
+    <h1 id="portfolio_title">Portfolio</h1>
+    <div class="container container-sm container-lg my-2 block_container">
+      <div class="row justify-content-center">
+        <div class="col-md-3" id="block_1"><a href="https://colorgame-bitrec98.netlify.app/" target="_blank"><img src="assets/ColorGame.png" alt="Color Game" class="portfolio_img"></a>
+          <h3 id="project_title_1"><a href="https://colorgame-bitrec98.netlify.app/" class="portfolio-link" target="_blank">Color Game</a></h3>
+          <a href="https://colorgame-bitrec98.netlify.app/" class="portfolio-link" target="_blank"><p>El juego consiste en adivinar el color correcto del código RGB en la parte superior para poder ganar. Existen dos modos de juego, el modo fácil, en el cual se tiene que realizar esta adivinanza sobre tres de los colores presentes. Luego está el modo difícil, en el cual se debe realizar esta adivinanza sobre seis colores.</p>
+          </a>
+        </div>
+        <div class="col-md-3" id="block_2"><a href="https://todolist-bitrec98.netlify.app/" target="_blank"><img src="assets/ToDoList.png" alt="To Do List" class="portfolio_img"></a>
+          <h3 id="project_title_2"><a href="https://todolist-bitrec98.netlify.app/" class="portfolio-link" target="_blank">To-Do List</a></h3>
+            <a href="https://todolist-bitrec98.netlify.app/" class="portfolio-link" target="_blank"><p>Este proyecto consiste en el ingreso de diversas tareas que se quieran registrar en un formato de lista, en la cual los ítems que se creen al ingresar los datos mediante una sección de entrada van a estar apareciendo progresivamente a medida que se van ingresando. Estos ítems se van a poder manipular totalmente, esto consiste en poder ingresar, editar y eliminar diversas tareas según sea necesario.</p></a>
+        </div>
+        <div class="col-md-3 portfolio" id="block_3"><a href="https://weatherchannel-bitrec98.netlify.app/" target="_blank"><img src="assets/weatherChannel.png" alt="Weather Channel" class="portfolio_img"></a>
+          <h3 id="project_title_3"><a href="https://weatherchannel-bitrec98.netlify.app/" class="portfolio-link" target="_blank">Weather Channel</a></h3>
+            <a href="https://weatherchannel-bitrec98.netlify.app/" class="portfolio-link" target="_blank"><p>El propósito de este proyecto es proporcionar el estado del clima en el momento en el que mediante una sección de ingreso del nombre de una ubicación en particular, se pueda observar el estado climático actual de la ubicación que se haya ingresado por teclado.</p>
+            </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- ABOUT ME -->
+  <section id="aboutMe">
+    <h2 id="aboutMe_title">Acerca de mí</h2>
+    <div class="container">
+        <p id="aboutMe_info">Soy <strong>Cristian</strong> y desde octubre de 2022 he estado sumergido en el emocionante mundo de la programación, el desarrollo web y el diseño UX/UI. Me apasiona aprender sobre estas áreas y estoy emocionado de seguir creciendo en la industria.
+
+          Desde mis inicios, me he enfocado en el desarrollo web y he adquirido experiencia en HTML, CSS y JavaScript. Me encanta crear aplicaciones interactivas y sitios web atractivos que brinden una gran experiencia de usuario.
+          
+          También me fascina el diseño UX/UI y cómo impacta en la forma en que interactuamos con la tecnología. Estoy siempre buscando formas de mejorar la usabilidad y el aspecto visual de mis proyectos.
+          
+          Aunque llevo poco tiempo en la industria, estoy ansioso por participar en proyectos más grandes y desafiantes. Estoy abierto a propuestas y oportunidades que me permitan adquirir experiencia y seguir aprendiendo.
+          
+          Me considero un apasionado de la educación continua y me mantengo al tanto de las últimas tendencias y avances. Siempre estoy en busca de nuevas oportunidades para ampliar mis conocimientos y habilidades.
+          
+          Estoy emocionado por trabajar en la industria y aplicar mi pasión por la programación y el diseño en proyectos emocionantes.</p>
+    </div>
+  </section>
+  
+  
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2 id="contact_title">Contacto</h2>
+    <div id="contact_container" class="container-lg">
+      <h3 class="title_contact">Datos de contacto:</h3>
+        <div class="row justify-content-center">
+
+          <!-- User data -->
+          <div class="col-lg-8" id="user_data">
+            <form action="https://formspree.io/f/xzbwjrbz" method="POST">
+
+              <!-- User_data -->
+              <label for="name" class="form-label mb-2">Nombre:</label>
+              <input type="text" class="form-control mb-2" id="name" placeholder="Ingrese su nombre...">
+
+              <!-- Message -->
+              <label for="text" class="form-label mb-2">Apellido: </label>
+              <input type="text" class="form-control mb-2" name="surname" id="surname" placeholder="Ingrese su apellido...">
+
+              <!-- email -->
+              <label for="email" class="form-label mb-2">Email:</label>
+              <input type="email" class="form-control mb-2" id="email" placeholder="email@example.com">
+
+              <!-- message -->
+              <label for="message" class="form-label mb-2">Mensaje:</label>
+              <textarea name="message" id="message" cols="30" style="height: 150px;" class="form-control mb-2" placeholder="Escriba su mensaje..."></textarea>
+
+              <div class="text-center mb-2 mt-4">
+                <button type="submit" class="btn">Enviar</button>
+              </div>
+            </form>
+          </div>  
+        </div>
+    </div>
+  </section>
+  
+  <!-- FOOTER -->
+  
+  <section id="footer">
+    <div class="footer_container container-fluid">
+      <div class = "row">
+        <div class="col-md-6" id="location_block">
+          <h2 id="location_title">Ubicación</h2>
+          <div id="location" class="container-md p-5 m-1">
+            <p>Santa Ana</p>
+            <p>Provincia de Córdoba</p>
+            <p>Argentina</p>
+          </div>
+        </div>
+        <div class="col-md-6" id="socialMedia_block">
+          <h2 id="socialMedia_title">Redes Sociales</h2>
+          <ul>
+            <li><a href="https://www.instagram.com/cristian.ux/" target="_blank">Instagram</a></li>
+            <li><a href="https://github.com/bit-rec98" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/recabarrencristian98/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://discord.com/channels/rec.crpt" target="_blank">Discord</a></li>
+          </ul>
+        </div>
+      </div>
+      <br>
+    </div>
+      <hr>
+      <p id="copyright">©<strong>Cristian Recabarren</strong> - Todos los derechos reservados (2022)</p>
+      <a href="#navbar_top"><button type="button" class="btn btn-link start_link px-4 py-1" id="topBtn">Top</button></a>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/ba0ece2d64.js"></script>
+</body>
+</html>

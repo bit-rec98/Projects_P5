@@ -1,0 +1,332 @@
+/* COLORS    
+#0B7A75, #2cd9d0;
+BLACK, WHITESMOKE; */
+
+/*FONTS 
+font-family: 'Courier Prime', monospace;
+font-family: 'Inconsolata', monospace; 
+*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+.intro_container > .column {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+body {
+    background: linear-gradient(to bottom right, #711cc7, #04a057, #fcbd00) no-repeat;
+    background-size: contain;
+}
+
+.backimg {
+    z-index: -4;
+    position: absolute;
+    text-align: center;
+}
+
+/* TITLES */
+#portfolio_title, #aboutMe_title, #contact_title, #location_title, #socialMedia_title {
+    font-family: 'Inconsolata', monospace;
+    background-color: #2b2b2b;
+    color: #f2f2f2;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+/* ------------------------------------ */
+/* NAVBAR */
+.navbar {
+    background-color: #2b2b2b;
+}
+
+#top {
+    color: #f2f2f2;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Courier Prime', monospace;
+}
+
+.navbar > .container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#portfolio_btn, #aboutMe_btn, #contact_btn {
+    font-family: 'Courier Prime', monospace;;
+    font-size: 20px;
+    border: 1px solid #f2f2f2;
+    color: #f2f2f2;
+    border-radius: 7px;
+    background-color: #2b2b2b;
+}
+
+#portfolio_btn > a, #aboutMe_btn > a, #contact_btn > a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+#portfolio_btn:hover, #aboutMe_btn:hover, #contact_btn:hover {
+    color: #711cc7;
+    background-color: #2b2b2b;
+    border: 1px solid #711cc7;
+    border-radius: 7px;
+}
+
+#toggler_btn {
+    background-color: #f2f2f2;
+    border: 1px solid #2b2b2b;
+}
+
+/* ------------------------------------ */
+/* INTRO */
+#dev_img {
+    margin-bottom: 15px;
+    width: 50%;
+    height: 25%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#dev_img > img {
+    border: 1px solid transparent;
+    border-radius: 50px;
+}
+.info {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 40px;
+    color: #f2f2f2;
+}
+
+#info_role {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier Prime', monospace;
+    font-size: 25px;
+    color: #f2f2f2;
+}
+
+/* ------------------------------------ */
+/* PORTFOLIO */
+
+.portfolio_img{
+    width: 100%;
+}
+
+#block_1, #block_2, #block_3 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 10px; 
+    padding: 15px;
+}
+
+#block_1 > h3, #block_2 > h3, #block_3 > h3 {
+    font-family: 'Courier Prime', monospace;
+    font-size: 30px;
+    margin-top: 10px;
+    padding-left: 5px;
+    color: #f2f2f2;
+}
+
+#block_1:hover, #block_2:hover, #block_3:hover{
+    background: linear-gradient(to bottom right, #711cc7, #04a057);
+    border: 1px solid transparent;
+}
+
+#block_1 > a > p, #block_2 > a > p, #block_3 > a > p {
+    color: #f2f2f2;
+    font-family: 'Courier Prime', monospace;
+    font-size: 20px;
+}
+
+#block_1 > a , #block_2 > a , #block_3 > a {
+    text-decoration: none;
+}
+
+#block_1 > a > img, #block_2 > a > img, #block_3 > a > img {
+    margin-top: 10px;
+}
+
+#block_2 {
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+#project_title_1 > a, #project_title_2 > a, #project_title_3 > a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+/* ------------------------------------ */
+/* ABOUTME */
+#aboutMe_info {
+    color: #f2f2f2;
+    font-family: 'Courier Prime', monospace;
+    font-size: 21px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 16px;
+    text-align: justify;
+}
+
+/* ------------------------------------ */
+/* CONTACT */
+.title_contact{
+    font-family: 'Courier Prime', monospace;
+    color: #f2f2f2;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+/* ------------------------------------ */
+/* CONTACT II */
+
+div > #user_data > form > label {
+    color: #f2f2f2;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+}
+div > #user_data > form > #name, div > #user_data > form > #surname, div > #user_data > form > #email, div > #user_data > form > #message, div > #user_data > form > #subject {
+    color: #04a057;
+    background-color: #2b2b2b;
+    border: 1px solid #04a057;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+}
+
+form > div > .btn {
+    color: black;
+    background-color: #04a057;
+    border: 1px solid #2b2b2b;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+}
+
+div > #user_data > form > div > .btn:hover {
+    background-color: #2b2b2b;
+    color: #04a057;
+    border: 1px solid #04a057;
+}
+
+
+/* ------------------------------------ */
+/* FOOTER */
+#footer > .footer_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#footer > .footer_container > .row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.footer_container > .row > #location_block > #location {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    color: #f2f2f2;
+    font-size: 25px;
+    font-family: 'Courier Prime', monospace;
+}
+
+#location_title, #socialMedia_title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    margin-bottom: 0px;
+}
+
+#copyright{
+    font-family: 'Courier Prime', monospace;
+    font-size: 20px;
+    color: #f2f2f2;
+    padding-left: 15px;
+}
+
+/* Social media */
+
+#socialMedia_block ul li a {
+    font-family: 'Courier Prime', monospace;
+    font-size: 20px;
+    color: #f2f2f2;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    padding: 10px 10px;
+    margin-left: 10px;
+}
+
+#socialMedia_block ul li a:hover{
+    border: 1px solid #711cc7;
+}
+
+#socialMedia_block ul li {
+    margin: 25px 0px; 
+    color: #711cc7;
+    list-style: circle;
+}
+
+
+#socialMedia_block ul {
+    margin: 15px 0;
+}
+
+/* ------------------------------------ */
+/* BUTTON TO TOP */
+
+.start_link{
+    background-color: #2b2b2b;
+    color: #04a057;
+    border: 1px solid #04a057;
+    border-radius: 7px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    text-decoration: none;
+    width: 80px;
+    height: 40px;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.start_link:hover{
+    background-color: #04a057;
+    color: #2b2b2b;
+    border: 1px solid #2b2b2b;
+}
+
+a > button {
+    text-decoration: none;
+    color: #f2f2f2;
+}
